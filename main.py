@@ -73,6 +73,7 @@ class Comment(UserMixin, db.Model):
 with app.app_context():
     db.create_all()
 
+
 ##CREATE ADMIN-ONLY DECORATOR
 def admin_only(f):
     @wraps(f)
