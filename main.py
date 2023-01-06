@@ -10,17 +10,17 @@ from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 from flask_gravatar import Gravatar
 from functools import wraps
 from flask import abort
-
+import os
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = os.environ.get("SECRET_KEY")
 ##INITIALIZE CKEDITOR AND BOOTSTRAP
 ckeditor = CKEditor(app)
 Bootstrap(app)
 
 ##CONNECT TO DB
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://blogs_vwq3_user:AZ1coCPEGlKYnfWacYwqRydFCmPBs5pF@dpg-ces8099a6gdggmjn7rr0-a/blogs_vwq3'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.environ.get("DATABASE_URI",  "sqlite:///blog.db")
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy()
 db.init_app(app)
