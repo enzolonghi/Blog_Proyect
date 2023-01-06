@@ -70,8 +70,8 @@ class Comment(UserMixin, db.Model):
     text = db.Column(db.Text, nullable=False)
 
 #This line is only used the first time that the app runs to create the db and the table
-with app.app_context():
-    db.create_all()
+# with app.app_context():
+#     db.create_all()
 
 
 ##CREATE ADMIN-ONLY DECORATOR
