@@ -24,9 +24,9 @@ Este proyecto parte de la idea e tener un espacio en el que una unica persona pu
 👤 **Enzo**
 ​
 
-- Github: [@enzolonghi(https://github.com/enzolonghi)]
+- Github: [@enzolonghi](https://github.com/enzolonghi)
 
-- Linkedin: [Enzo Longhi](https://www.linkedin.com/in/enzolonghi/)]
+- Linkedin: [Enzo Longhi](https://www.linkedin.com/in/enzolonghi/)
 
 
 ## Show your support
