@@ -3,7 +3,7 @@
 
 ## What is this project about? 
 
-Este proyecto parte de la idea e tener un espacio en el que una unica persona pueda compartir su opinion o redactar un articulo sobre un tema en especifico. Ademas permite la interaccion de los usuarios entre si mediante comentarios
+This project is based on the idea of having a space where a single person can share their opinion or write an article on a specific topic. It also allows users to interact with each other through comments.
 
 ![screenshot](static/img/home-img.png)
 ![screenshot](static/img/post-img.png)
