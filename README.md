@@ -14,6 +14,7 @@ This project is based on the idea of having a space where a single person can sh
 - [Flask](https://flask.palletsprojects.com/en/2.2.x/)
 - HTML
 - CSS
+- PostgreSQL
 
 ## Live demo link
 
